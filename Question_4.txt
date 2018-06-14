@@ -1,0 +1,18 @@
+list=[1,"abc",3.4,34,"xyz",4,2.3,"abcd"]
+print(list)
+
+q=[]
+w=[]
+e=[]
+
+for x in list:
+    if type(x)==str:
+        q.append(x)
+    elif type(x)==int:
+        w.append(x)
+    elif type(x)==float:
+        e.append(x)
+
+print(q)
+print(w)
+print(e)

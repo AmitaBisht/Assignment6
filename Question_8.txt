@@ -1,0 +1,9 @@
+list=[]
+for i in range(0,10):
+    num=int(input("enter number: "))
+    list.append(num)
+    print(list)
+x=int(input("enter element: "))
+if x in list:
+    list.remove(x)
+    print(list)

@@ -1,0 +1,6 @@
+import operator
+dic = eval(input("enter dictionary: "))
+print(dic)
+for key in dic:
+    print(key)
+    print(dic[key])

@@ -1,0 +1,11 @@
+q=[]
+w=[]
+
+for x in range(1,101):
+    if(x%2==0):
+        q.append(x)
+     
+    else:
+       w.append(x)
+print(q)
+print(w)
